@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Customer Registration</h1>
+    <form>
+        <label>Name</label>
+        <input type="name" pattern="[a-z A-Z]+" minlength="4" maxlength="16" autofocus required /><br><br>
+        <label>PassWord:</label>
+        <input type="number" pattern="[0-9]+" maxlength="6" autofocus required /><br><br>
+        <label>Email-id:</label>
+        <input type="email"  autofocus required ><br><br>
+        <label>Gender:</label>
+        <input type="radio"  autofocus required name="gender"/>Male
+        <input type="radio"  autofocus required name="gender"/>Female
+        <input type="radio"  autofocus required name="gender"/>Other
+        <label>Age:</label>
+        <input type="number" pattern="[0-9]+" maxlength="2" autofocus required /><br><br>
+        <label>Address:</label>
+        <textarea>cols=2 rows=2</textarea><br>
+        <label></label>
+    </form>
+</body>
+</html>
